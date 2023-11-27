@@ -1,22 +1,23 @@
-# Windows-Activator-Pro-WAP
+## Windows Activator Pro (WAPro)
 
-Activation Process Handling: The code uses various commands (slmgr.vbs) to activate Windows based on the selected version and edition.
+This Python application provides a graphical interface built using Tkinter for activating various versions of Windows OS, from Windows 7 to Windows 11. The application allows users to select their desired Windows version and edition from dropdown menus, providing activation options for the selected combination.
 
-UI Elements: It employs Tkinter widgets like labels, buttons, and comboboxes to create a user interface for selecting Windows versions and editions.
+### Features:
+- Activation options for Windows 7, 8, 8.1, 10, and 11 editions.
+- Graphical interface for easy selection and activation process.
+- Additional functionalities to retrieve Windows information, reset licensing status, and check activation status.
 
-Debugger Check: There seems to be a debugger check implemented using ctypes.windll.kernel32.IsDebuggerPresent() to prevent debugging.
+### Usage:
+1. Select the desired Windows version and edition.
+2. Click "Activate Now!" to activate the selected Windows version and edition.
+3. Additional functionalities are available under "More Options" for retrieving product keys, deactivating Windows, resetting licensing status, and checking previous activations.
 
-Functionality: The program can get Windows activation status, deactivate Windows, reset licensing status, and fetch Windows version and edition information.
+This application leverages system commands (`slmgr.vbs`) to facilitate the activation process for the chosen Windows version and edition.
 
-About and Help Functions: It includes buttons that display information via message boxes for About and Help.
+## Disclaimer:
 
-External Links: Lastly, there are links to websites associated with developers and teams displayed as clickable labels at the bottom.
+**Warning:** This project is provided for educational and demonstration purposes only. Activation of Windows operating systems without proper licensing or authorization from Microsoft may be illegal and against their terms of service.
 
-While this code demonstrates the GUI for a Windows Activator, it's important to note that creating and distributing software to modify or activate operating systems can potentially raise legal and ethical concerns. Activation of software through methods not approved by the software provider can be illegal and can potentially cause security risks or violate terms of service.
+**Usage at Your Own Risk:** This project is intended solely for educational and research purposes. Activating Windows using this software without appropriate authorization may breach Microsoft's terms of service and local laws. It is crucial to understand the legal implications before utilizing this project for any activation purposes.
 
-If this is a personal project or for learning purposes, it's important to refrain from distributing or using such software outside the terms and conditions of the software provider. Also, ensure you are complying with laws and ethical guidelines while developing such applications.
-
-
-
-
-
+The contributors or maintainers of this repository do not bear any responsibility for any misuse or legal consequences arising from the usage of this software.
